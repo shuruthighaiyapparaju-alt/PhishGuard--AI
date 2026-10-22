@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large / generated files (recreate them locally)
+data/*.csv
+models/*.joblib
+results/*.png
+results/*.json
+
+# Editor / OS files
+.vscode/
+.DS_Store
